@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="main-container">
+      <!-- main card  -->
+      <div class="main-card">
+        <!-- first card  -->
+        <div class="blue-card">
+          <h1>Your Result</h1>
+          <div class="circle">
+            <h3>76</h3>
+            <h5>of 100</h5>
+          </div>
+          <h2>Great</h2>
+          <p class="text1">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </div>
+
+        <!-- second card  -->
+        <div class="white-card">
+          <h1>Summary</h1>
+          <section class="scores">
+            <div class="sum sum01">
+              <div class="sum-item">
+                <img src="../assets/images/icon-reaction.svg" alt="" />
+                <span class="score-text01">Reaction</span>
+              </div>
+              <p><b>80</b> <span class="sum-grey">/100</span></p>
+            </div>
+
+            <div class="sum sum02">
+              <div class="sum-item">
+                <img src="../assets/images/icon-memory.svg" alt="" />
+                <span class="score-text02">Memory</span>
+              </div>
+              <p><b>92</b> <span class="sum-grey">/100</span></p>
+            </div>
+            <div class="sum sum03">
+              <div class="sum-item">
+                <img src="../assets/images/icon-verbal.svg" alt="" />
+                <span class="score-text03">Verbal</span>
+              </div>
+              <p><b>61</b> <span class="sum-grey">/100</span></p>
+            </div>
+            <div class="sum sum04">
+              <div class="sum-item">
+                <img src="../assets/images/icon-visual.svg" alt="" />
+                <span class="score-text04">Visual</span>
+              </div>
+              <p><b>72</b> <span class="sum-grey">/100</span></p>
+            </div>
+          </section>
+          <button class="white-card-button">Continue</button>
+        </div>
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">onlyeugene</a>.
+    </div>
+  </body>
+</html>
